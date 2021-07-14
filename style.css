@@ -128,3 +128,28 @@ h1{
     height: 44px;
     font-weight: 500;
 }
+
+
+/*------------
+    FOOTER
+--------------*/
+.footer .footer-image img{
+    width: 480px;
+    height: 110px;
+}
+.footer{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    width: 480px;
+    height: 210px;
+    align-items: center;
+}
+.icon{
+    color: #969BAB;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.copyright{
+    text-align: center;
+}
