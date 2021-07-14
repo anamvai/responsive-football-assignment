@@ -11,7 +11,11 @@ body{
 }
 main{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    margin-bottom: 70px;
 }
 
 
@@ -24,11 +28,11 @@ COVER PAGE
     flex-direction: row;
     align-items: center;
 }
-.cover-text{
+.title{
     color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     padding-left: 150px;
     margin-bottom: 150px;
     margin-top: 200px;
@@ -48,4 +52,36 @@ h1{
 .cover-image img{
     width: 556.01px;
     padding-right: 140px;
+}
+
+
+/*----------
+   PLAYERS
+------------*/
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+.player{
+    background-color: rgba(17, 107, 241, 0.556);
+    padding: 15px 15px 15px 15px;
+    width: 300px;
+    height: 400px;
+    
+}
+.players .player .player-image img{
+    width: 300px;
+    height: 256px; 
+}
+.player-info .player-name h2{
+    font-size: 28px;
+    font-weight: 700;
+    
+}
+.player-details p{
+    width: 300px;
+    height: 100px;
+    text-align:justify;
 }
