@@ -165,10 +165,6 @@ h1{
 /*------------
     FOOTER
 --------------*/
-.footer .footer-image img{
-    width: 480px;
-    height: 110px;
-}
 .footer{
     display: flex;
     flex-direction: column;
@@ -176,6 +172,10 @@ h1{
     height: 210px;
     justify-content: space-around;
     align-items: center;
+}
+.footer .footer-image img{
+    width: 480px;
+    height: 110px;
 }
 .icon{
     color: #969BAB;
