@@ -13,6 +13,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgba(202, 245, 241, 0.219);
 }
 .container{
     margin-bottom: 70px;
@@ -23,7 +24,7 @@ main{
 COVER PAGE
 ------------*/
 .cover-page{
-    background-color: #58c522;
+    background-color: #fd9d28;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -44,7 +45,7 @@ h1{
     text-align: left;
 }
 .cover-button{
-    background-color: #7e22da;
+    background-color: #fa0c0c;
     color: white;
     width: 172px;
     height: 44px;
@@ -76,7 +77,7 @@ h1{
     grid-column-gap: 30px;
 }
 .player{
-    background-color: rgba(187, 244, 54, 0.529);
+    background-color: rgba(250, 220, 183, 0.200);
     padding: 15px 15px 15px 15px;
     width: 300px;
     height: 450px;
@@ -132,11 +133,10 @@ h1{
 }
 
 .extra-button{
-    background-color: #7e22da;
+    background-color: #ff0000;
     color: white;
     width: 172px;
     height: 44px;
-    
     border: none;
     border-radius: 10px;
     font-weight: 500;
