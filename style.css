@@ -13,7 +13,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(202, 245, 241, 0.219);
+    background-color: rgb(220, 248, 245);
 }
 .container{
     margin-bottom: 70px;
@@ -77,16 +77,20 @@ h1{
     grid-column-gap: 30px;
 }
 .player{
-    background-color: rgba(250, 220, 183, 0.200);
+    background-color: rgb(255, 255, 255);
     padding: 15px 15px 15px 15px;
     width: 300px;
     height: 450px;
-    border-top-right-radius: 50px; 
+    border-radius: 5px;
+    /* border-top-right-radius: 20px;
+    border-top-left-radius: 20px; */
 }
 .players .player .player-image img{
     width: 300px;
     height: 256px;
-    border-top-right-radius: 50px;
+    border-radius: 5px;
+    /* border-top-right-radius: 20px;
+    border-top-left-radius: 20px; */
 }
 .player-info .player-name h2{
     font-size: 28px;
@@ -110,7 +114,7 @@ h1{
 }
 .extra-section .extra-image img{
     width: 567px;
-    border-top-right-radius: 100px;
+    /* border-radius: 30px; */
 }
 .extra-image{
     overflow: hidden;
