@@ -80,15 +80,12 @@ h1{
     padding: 15px 15px 15px 15px;
     width: 300px;
     height: 450px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    
+    border-top-right-radius: 50px; 
 }
 .players .player .player-image img{
     width: 300px;
     height: 256px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border-top-right-radius: 50px;
 }
 .player-info .player-name h2{
     font-size: 28px;
@@ -105,17 +102,14 @@ h1{
 /*------------
    EXTRA SECTION
 --------------*/
-.extra-section .extra-image img{
-    width: 556.01px;
-    padding-right: 140px;
-    border-radius: 50px;
-    
-}
 .extra-section{
     display: flex;
-    align-items: stretch;
-    margin-left: 135px;
-    margin-top: 100px;
+    align-items: center;
+    margin-top: px;
+}
+.extra-section .extra-image img{
+    width: 567px;
+    border-top-right-radius: 100px;
 }
 .extra-title{
     display: flex;
